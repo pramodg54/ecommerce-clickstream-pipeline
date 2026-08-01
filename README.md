@@ -228,6 +228,9 @@ Implemented validations include:
 - Unique key validation
 - Numeric range validation
 
+<img width="1265" height="467" alt="Screenshot 2026-08-01 230724" src="https://github.com/user-attachments/assets/3556b64a-268b-4c21-8d73-cc579c87b58c" />
+
+
 ---
 
 
