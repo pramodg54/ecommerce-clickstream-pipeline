@@ -22,7 +22,8 @@ The pipeline performs:
 
 # 🏗️ Solution Architecture
 
-![Architecture](docs/images/architecture.png)
+<img width="1536" height="1024" alt="Project flow" src="https://github.com/user-attachments/assets/d2b8323c-cf40-4fa1-b0a1-4b84307fe044" />
+
 
 The project follows the Medallion Architecture.
 
