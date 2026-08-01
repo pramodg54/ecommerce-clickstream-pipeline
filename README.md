@@ -369,7 +369,7 @@ python export_gold_for_powerbi.py
 
 ## Executive Dashboard
 
-<img width="1355" height="747" alt="Screenshot 2026-08-01 233303" src="https://github.com/user-attachments/assets/9f2477f7-8976-4d37-82a3-469283e0c6be" />
+<img width="1380" height="777" alt="image" src="https://github.com/user-attachments/assets/d671b347-af2f-4dd6-b389-40bdb666172c" />
 
 
 ---
