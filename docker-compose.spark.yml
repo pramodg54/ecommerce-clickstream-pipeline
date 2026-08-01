@@ -1,0 +1,21 @@
+version: "3.8"
+
+services:
+  spark:
+
+    build: .
+
+    container_name: ecommerce-spark
+
+    working_dir: /opt/project
+
+    volumes:
+      - ./:/opt/project
+
+    ports:
+      - "4040:4040"
+
+    stdin_open: true
+    tty: true
+
+    command: tail -f /dev/null

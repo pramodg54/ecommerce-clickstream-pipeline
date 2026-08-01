@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+
+# Airflow
+airflow/logs/
+airflow/plugins/__pycache__/
+
+# Spark
+metastore_db/
+spark-warehouse/
+
+# Delta Logs (optional - keep data, ignore logs)
+**/_delta_log/*.crc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary
+*.log
+*.tmp
+
+# Environment
+.env
+
+# Power BI
+*.pbix.autorecovery

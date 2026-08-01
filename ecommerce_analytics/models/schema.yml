@@ -1,0 +1,94 @@
+version: 2
+
+models:
+
+  - name: stg_ga_sessions
+    description: "Staging model containing cleaned Google Analytics session data."
+
+    columns:
+      - name: user_id
+        description: "Unique visitor identifier."
+        data_tests:
+          - not_null
+
+      - name: visit_id
+        description: "Unique visit identifier."
+        data_tests:
+          - not_null
+
+      - name: visit_start_time
+        description: "Timestamp of the session."
+        data_tests:
+          - not_null
+
+      - name: country
+        description: "Visitor country."
+
+      - name: device_category
+        description: "Device used by the visitor."
+
+      - name: traffic_source
+        description: "Traffic acquisition source."
+
+  - name: fact_sessions
+    description: "Gold fact table containing session level metrics."
+
+    columns:
+      - name: user_id
+        description: "Unique visitor identifier."
+        data_tests:
+          - not_null
+
+      - name: visit_id
+        description: "Unique visit identifier."
+        data_tests:
+          - not_null
+
+      - name: transaction_revenue
+        description: "Revenue generated during the session."
+
+      - name: transactions
+        description: "Number of transactions."
+
+      - name: page_views
+        description: "Number of page views."
+
+      - name: is_transaction
+        description: "Indicates whether the session resulted in a transaction."
+
+  - name: dim_country
+    description: "Country dimension."
+
+    columns:
+      - name: country
+        data_tests:
+          - unique
+          - not_null
+
+  - name: dim_device
+    description: "Device dimension."
+
+    columns:
+      - name: device_category
+        data_tests:
+          - unique
+          - not_null
+
+  - name: dim_source
+    description: "Traffic source dimension."
+
+    columns:
+      - name: source
+        data_tests:
+          - unique
+          - not_null
+
+  - name: dim_date
+    description: "Calendar dimension."
+
+    columns:
+      - name: full_date
+        description: "Calendar date."
+        data_tests:
+          - unique
+          - not_null
