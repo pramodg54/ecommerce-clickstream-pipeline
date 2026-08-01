@@ -215,7 +215,7 @@ Pipeline Complete
 ```
 
 ---
-
+<img width="1827" height="162" alt="Screenshot 2026-08-01 222131" src="https://github.com/user-attachments/assets/2d67a3bd-ce87-45a5-93a1-1b838befaf38" />
 # ✅ Data Quality Validation
 
 Great Expectations is used to validate Gold Layer datasets.
@@ -229,7 +229,7 @@ Implemented validations include:
 - Numeric range validation
 
 ---
-<img width="1827" height="162" alt="Screenshot 2026-08-01 222131" src="https://github.com/user-attachments/assets/2d67a3bd-ce87-45a5-93a1-1b838befaf38" />
+
 
 # 📊 Power BI Dashboard
 
