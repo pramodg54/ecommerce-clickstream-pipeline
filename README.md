@@ -19,6 +19,28 @@ The pipeline performs:
 - Power BI Dashboard for business analytics
 
 ---
+# Dataset
+
+Google Analytics Session
+│
+├── Session information
+│
+├── Device
+│
+├── Geography
+│
+├── Traffic Source
+│
+├── Totals
+│
+└── Hits[]
+      │
+      ├── Page information
+      ├── Event information
+      ├── E-commerce action
+      ├── Product
+      └── Transaction
+---
 
 # 🏗️ Solution Architecture
 
