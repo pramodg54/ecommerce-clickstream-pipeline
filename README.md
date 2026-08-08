@@ -20,7 +20,7 @@ The pipeline performs:
 
 ---
 # Dataset
-
+```
 Google Analytics Session
 │
 ├── Session information
@@ -40,6 +40,7 @@ Google Analytics Session
       ├── E-commerce action
       ├── Product
       └── Transaction
+```
 ---
 
 # 🏗️ Solution Architecture
